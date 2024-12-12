@@ -88,7 +88,7 @@ directionalLight.shadow.camera.far = 15;
 directionalLight.shadow.normalBias = 0.034;
 directionalLight.shadow.bias = 0;
 
-directionalLight.shadow.mapSize.set(512, 512);
+directionalLight.shadow.mapSize.set(1024, 1024);
 gui.add(directionalLight, "castShadow");
 gui.add(directionalLight.shadow, "normalBias").min(-0.05).max(0.05).step(0.001);
 gui.add(directionalLight.shadow, "bias").min(-0.05).max(0.05).step(0.001);
